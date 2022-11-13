@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(3, 53, 3);
+    color: white;
+    font: normal 1.5rem arial;
+}
+
+h1 {
+    margin: .8rem;
+}
+
+div {
+    background-color: rgb(41, 63, 37);
+
+    border: .2rem solid rgb(59, 74, 59);
+    border-radius: 1rem;
+
+    margin: .5rem auto;
+    padding: .5rem;
+
+    width: 22rem;
+    height: auto;
+}
+
+input {
+    margin: .7rem auto;
+    width: 6rem;
+    height: 1.5rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+input:focus {
+    width: 6rem;
+    height: 1.8rem;
+    border: .2rem solid salmon;
+    background-color: lightsalmon;
+    color: white;
+    border-radius: .3rem;
+}
+
+button {
+    width: 4rem;
+    height: 2rem;
+
+    font-weight: bold;
+    color: salmon;
+
+    border: 2px solid salmon;
+    border-radius: .5rem;
+}
+
+
